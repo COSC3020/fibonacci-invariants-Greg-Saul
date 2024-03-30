@@ -30,6 +30,7 @@ most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
 ### Invariant explanation
-The invarient that must be true at the beginning of every recursive call is that n must be greater than 0.
+The invarient that must be true at the beginning of every recursive call is that n must be greater than 1.
 This is because it keeps calling the function until n == 1 and that starts the array with [0, 1] and
-continues to add to that until it adds the n'th term to the end of the array.
+continues to add to that until it adds the n'th term to the end of the array. Otherwise, if the initial case
+is n == 1 or n == 0, there is no recursion necessary.
