@@ -33,4 +33,4 @@ your answer to this markdown file.
 The invarient that must be true at the beginning of every recursive call is that n must be greater than 1.
 This is because it keeps calling the function until n == 1 and that starts the array with [0, 1] and
 continues to add to that until it adds the n'th term to the end of the array. Otherwise, if the initial case
-is n == 1 or n == 0, there is no recursion necessary. This makes sure that we always have the correct n'th number because we will always have the correct starting numbers. The most important part of the fibonacci sequence is to have the 0th and 1st numbers because the rest of the series is based off of that.
+is n == 1 or n == 0, there is no recursion necessary. This makes sure that we always have the correct n'th number because we will always have the correct starting numbers. The most important part of the fibonacci sequence is to have the 0th and 1st numbers because the rest of the series is based off of that. n being greater than 1 at the beginning of the current iteration tells us that we will need to make another recursive call because we have not reached the case where we can start with the correct numbers.
